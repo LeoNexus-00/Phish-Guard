@@ -1,0 +1,7 @@
+{
+    "credentials": ["login", "log-in", "signin", "sign-in", "logon", "password", "passwd", "credential", "authentication", "authenticate"],
+    "verification": ["verify", "verification", "confirm", "validate", "unlock", "suspended", "restore", "reactivate"],
+    "account": ["account", "update", "secure", "security", "recover", "webscr"],
+    "financial": ["bank", "banking", "payment", "wallet", "billing", "invoice", "refund", "crypto"],
+    "urgency_or_reward": ["urgent", "prize", "winner", "bonus", "gift", "free-", "claim", "reward"]
+}

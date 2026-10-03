@@ -1,0 +1,621 @@
+[
+    {
+        "scan_id": "20261004023210825224",
+        "url": "https://cftget-rb.myshopify.com/checkouts/cn/hWNHYWlnWemW2DQZ0zlbJiTq/en-in?_r=AQABWaaBkr5u6H3Lp2ZaTRF_3h6Jb2Teek7CekaFE-JQnCf5Z-E3",
+        "timestamp": "2026-10-04 02:32:10",
+        "risk_score": 10,
+        "risk_level": "Low Risk",
+        "features": {
+            "url": "https://cftget-rb.myshopify.com/checkouts/cn/hWNHYWlnWemW2DQZ0zlbJiTq/en-in?_r=AQABWaaBkr5u6H3Lp2ZaTRF_3h6Jb2Teek7CekaFE-JQnCf5Z-E3",
+            "scheme": "https",
+            "hostname": "cftget-rb.myshopify.com",
+            "subdomain": "cftget-rb",
+            "domain": "myshopify.com",
+            "tld": "com",
+            "port": null,
+            "path": "/checkouts/cn/hWNHYWlnWemW2DQZ0zlbJiTq/en-in",
+            "query": "_r=AQABWaaBkr5u6H3Lp2ZaTRF_3h6Jb2Teek7CekaFE-JQnCf5Z-E3",
+            "fragment": "",
+            "url_length": 131,
+            "hostname_length": 23,
+            "path_length": 44,
+            "dot_count": 2,
+            "hyphen_count": 4,
+            "hostname_hyphen_count": 1,
+            "subdomain_count": 1,
+            "digit_count": 12,
+            "hostname_digit_count": 0,
+            "special_char_count": 0,
+            "query_param_count": 1,
+            "encoded_char_count": 0,
+            "uses_https": true,
+            "has_ip_address": false,
+            "has_at_symbol": false,
+            "has_double_slash_in_path": false,
+            "has_encoded_hostname": false,
+            "is_punycode": false,
+            "has_non_ascii_hostname": false,
+            "is_url_shortener": false,
+            "has_suspicious_tld": false,
+            "has_non_standard_port": false,
+            "embedded_domains": [],
+            "keyword_matches": {},
+            "keywords_in_domain": []
+        },
+        "detected_rules": [
+            {
+                "rule_id": "url_length",
+                "name": "URL Length",
+                "detected": "131 characters",
+                "reason": "The URL is longer than 75 characters, which makes it harder to inspect. Many normal URLs are also long, so this is only a minor indicator.",
+                "score": 10
+            }
+        ]
+    },
+    {
+        "scan_id": "20261004015618833337",
+        "url": "https://bit.ly/3abcXYZ",
+        "timestamp": "2026-10-04 01:56:18",
+        "risk_score": 10,
+        "risk_level": "Low Risk",
+        "features": {
+            "url": "https://bit.ly/3abcXYZ",
+            "scheme": "https",
+            "hostname": "bit.ly",
+            "subdomain": "",
+            "domain": "bit.ly",
+            "tld": "ly",
+            "port": null,
+            "path": "/3abcXYZ",
+            "query": "",
+            "fragment": "",
+            "url_length": 22,
+            "hostname_length": 6,
+            "path_length": 8,
+            "dot_count": 1,
+            "hyphen_count": 0,
+            "hostname_hyphen_count": 0,
+            "subdomain_count": 0,
+            "digit_count": 1,
+            "hostname_digit_count": 0,
+            "special_char_count": 0,
+            "query_param_count": 0,
+            "encoded_char_count": 0,
+            "uses_https": true,
+            "has_ip_address": false,
+            "has_at_symbol": false,
+            "has_double_slash_in_path": false,
+            "has_encoded_hostname": false,
+            "is_punycode": false,
+            "has_non_ascii_hostname": false,
+            "is_url_shortener": true,
+            "has_suspicious_tld": false,
+            "has_non_standard_port": false,
+            "embedded_domains": [],
+            "keyword_matches": {},
+            "keywords_in_domain": []
+        },
+        "detected_rules": [
+            {
+                "rule_id": "url_shortener",
+                "name": "URL Shortener",
+                "detected": "bit.ly",
+                "reason": "URL shorteners hide the final destination, so the real website cannot be seen from the link itself.",
+                "score": 10
+            }
+        ]
+    },
+    {
+        "scan_id": "20261004015618791675",
+        "url": "http://198.51.100.7/secure/login.php",
+        "timestamp": "2026-10-04 01:56:18",
+        "risk_score": 55,
+        "risk_level": "High Suspicion",
+        "features": {
+            "url": "http://198.51.100.7/secure/login.php",
+            "scheme": "http",
+            "hostname": "198.51.100.7",
+            "subdomain": "",
+            "domain": "198.51.100.7",
+            "tld": "",
+            "port": null,
+            "path": "/secure/login.php",
+            "query": "",
+            "fragment": "",
+            "url_length": 36,
+            "hostname_length": 12,
+            "path_length": 17,
+            "dot_count": 4,
+            "hyphen_count": 0,
+            "hostname_hyphen_count": 0,
+            "subdomain_count": 0,
+            "digit_count": 9,
+            "hostname_digit_count": 0,
+            "special_char_count": 0,
+            "query_param_count": 0,
+            "encoded_char_count": 0,
+            "uses_https": false,
+            "has_ip_address": true,
+            "has_at_symbol": false,
+            "has_double_slash_in_path": false,
+            "has_encoded_hostname": false,
+            "is_punycode": false,
+            "has_non_ascii_hostname": false,
+            "is_url_shortener": false,
+            "has_suspicious_tld": false,
+            "has_non_standard_port": false,
+            "embedded_domains": [],
+            "keyword_matches": {
+                "credentials": [
+                    "login"
+                ],
+                "account": [
+                    "secure"
+                ]
+            },
+            "keywords_in_domain": []
+        },
+        "detected_rules": [
+            {
+                "rule_id": "https_check",
+                "name": "HTTPS Check",
+                "detected": "http",
+                "reason": "The URL uses HTTP rather than HTTPS, so information sent to the site would not be encrypted. Legitimate login pages use HTTPS.",
+                "score": 10
+            },
+            {
+                "rule_id": "ip_address",
+                "name": "IP Address Hostname",
+                "detected": "198.51.100.7",
+                "reason": "The site is addressed by a raw IP address instead of a domain name. Legitimate public websites almost always use domain names.",
+                "score": 25
+            },
+            {
+                "rule_id": "suspicious_keywords",
+                "name": "Suspicious Keywords",
+                "detected": "\"login\", \"secure\" (credentials, account)",
+                "reason": "These words are frequently used in URLs that try to collect passwords, account details or payments. Points are given per category (10 each, maximum 30).",
+                "score": 20
+            }
+        ]
+    },
+    {
+        "scan_id": "20261004015618771942",
+        "url": "http://example-login.com/verify-account",
+        "timestamp": "2026-10-04 01:56:18",
+        "risk_score": 50,
+        "risk_level": "Suspicious",
+        "features": {
+            "url": "http://example-login.com/verify-account",
+            "scheme": "http",
+            "hostname": "example-login.com",
+            "subdomain": "",
+            "domain": "example-login.com",
+            "tld": "com",
+            "port": null,
+            "path": "/verify-account",
+            "query": "",
+            "fragment": "",
+            "url_length": 39,
+            "hostname_length": 17,
+            "path_length": 15,
+            "dot_count": 1,
+            "hyphen_count": 2,
+            "hostname_hyphen_count": 1,
+            "subdomain_count": 0,
+            "digit_count": 0,
+            "hostname_digit_count": 0,
+            "special_char_count": 0,
+            "query_param_count": 0,
+            "encoded_char_count": 0,
+            "uses_https": false,
+            "has_ip_address": false,
+            "has_at_symbol": false,
+            "has_double_slash_in_path": false,
+            "has_encoded_hostname": false,
+            "is_punycode": false,
+            "has_non_ascii_hostname": false,
+            "is_url_shortener": false,
+            "has_suspicious_tld": false,
+            "has_non_standard_port": false,
+            "embedded_domains": [],
+            "keyword_matches": {
+                "credentials": [
+                    "login"
+                ],
+                "verification": [
+                    "verify"
+                ],
+                "account": [
+                    "account"
+                ]
+            },
+            "keywords_in_domain": [
+                "login"
+            ]
+        },
+        "detected_rules": [
+            {
+                "rule_id": "https_check",
+                "name": "HTTPS Check",
+                "detected": "http",
+                "reason": "The URL uses HTTP rather than HTTPS, so information sent to the site would not be encrypted. Legitimate login pages use HTTPS.",
+                "score": 10
+            },
+            {
+                "rule_id": "suspicious_keywords",
+                "name": "Suspicious Keywords",
+                "detected": "\"login\", \"verify\", \"account\" (credentials, verification, account)",
+                "reason": "These words are frequently used in URLs that try to collect passwords, account details or payments. Points are given per category (10 each, maximum 30).",
+                "score": 30
+            },
+            {
+                "rule_id": "keyword_in_domain",
+                "name": "Keyword in Domain Name",
+                "detected": "\"login\" in 'example-login.com'",
+                "reason": "Sensitive words inside the domain name itself (e.g. 'secure-login-example.com') are a common trick to make a fake domain look official.",
+                "score": 10
+            }
+        ]
+    },
+    {
+        "scan_id": "20261004015618725714",
+        "url": "https://www.example.com/about",
+        "timestamp": "2026-10-04 01:56:18",
+        "risk_score": 0,
+        "risk_level": "Low Risk",
+        "features": {
+            "url": "https://www.example.com/about",
+            "scheme": "https",
+            "hostname": "www.example.com",
+            "subdomain": "www",
+            "domain": "example.com",
+            "tld": "com",
+            "port": null,
+            "path": "/about",
+            "query": "",
+            "fragment": "",
+            "url_length": 29,
+            "hostname_length": 15,
+            "path_length": 6,
+            "dot_count": 2,
+            "hyphen_count": 0,
+            "hostname_hyphen_count": 0,
+            "subdomain_count": 0,
+            "digit_count": 0,
+            "hostname_digit_count": 0,
+            "special_char_count": 0,
+            "query_param_count": 0,
+            "encoded_char_count": 0,
+            "uses_https": true,
+            "has_ip_address": false,
+            "has_at_symbol": false,
+            "has_double_slash_in_path": false,
+            "has_encoded_hostname": false,
+            "is_punycode": false,
+            "has_non_ascii_hostname": false,
+            "is_url_shortener": false,
+            "has_suspicious_tld": false,
+            "has_non_standard_port": false,
+            "embedded_domains": [],
+            "keyword_matches": {},
+            "keywords_in_domain": []
+        },
+        "detected_rules": []
+    },
+    {
+        "scan_id": "20261004015459136962",
+        "url": "https://аpple.com/login",
+        "timestamp": "2026-10-04 01:54:59",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "features": {
+            "url": "https://аpple.com/login",
+            "scheme": "https",
+            "hostname": "аpple.com",
+            "subdomain": "",
+            "domain": "аpple.com",
+            "tld": "com",
+            "port": null,
+            "path": "/login",
+            "query": "",
+            "fragment": "",
+            "url_length": 23,
+            "hostname_length": 9,
+            "path_length": 6,
+            "dot_count": 1,
+            "hyphen_count": 0,
+            "hostname_hyphen_count": 0,
+            "subdomain_count": 0,
+            "digit_count": 0,
+            "hostname_digit_count": 0,
+            "special_char_count": 0,
+            "query_param_count": 0,
+            "encoded_char_count": 0,
+            "uses_https": true,
+            "has_ip_address": false,
+            "has_at_symbol": false,
+            "has_double_slash_in_path": false,
+            "has_encoded_hostname": false,
+            "is_punycode": false,
+            "has_non_ascii_hostname": true,
+            "is_url_shortener": false,
+            "has_suspicious_tld": false,
+            "has_non_standard_port": false,
+            "embedded_domains": [],
+            "keyword_matches": {
+                "credentials": [
+                    "login"
+                ]
+            },
+            "keywords_in_domain": []
+        },
+        "detected_rules": [
+            {
+                "rule_id": "suspicious_keywords",
+                "name": "Suspicious Keywords",
+                "detected": "\"login\" (credentials)",
+                "reason": "These words are frequently used in URLs that try to collect passwords, account details or payments. Points are given per category (10 each, maximum 30).",
+                "score": 10
+            },
+            {
+                "rule_id": "punycode",
+                "name": "Punycode / Look-alike Characters",
+                "detected": "Non-ASCII letters in hostname",
+                "reason": "Punycode or non-English letters can create look-alike domains (homograph attacks), e.g. a Cyrillic letter that looks exactly like the English 'a'.",
+                "score": 20
+            }
+        ]
+    },
+    {
+        "scan_id": "20261004015458981257",
+        "url": "https://bit.ly/3abcXYZ",
+        "timestamp": "2026-10-04 01:54:58",
+        "risk_score": 10,
+        "risk_level": "Low Risk",
+        "features": {
+            "url": "https://bit.ly/3abcXYZ",
+            "scheme": "https",
+            "hostname": "bit.ly",
+            "subdomain": "",
+            "domain": "bit.ly",
+            "tld": "ly",
+            "port": null,
+            "path": "/3abcXYZ",
+            "query": "",
+            "fragment": "",
+            "url_length": 22,
+            "hostname_length": 6,
+            "path_length": 8,
+            "dot_count": 1,
+            "hyphen_count": 0,
+            "hostname_hyphen_count": 0,
+            "subdomain_count": 0,
+            "digit_count": 1,
+            "hostname_digit_count": 0,
+            "special_char_count": 0,
+            "query_param_count": 0,
+            "encoded_char_count": 0,
+            "uses_https": true,
+            "has_ip_address": false,
+            "has_at_symbol": false,
+            "has_double_slash_in_path": false,
+            "has_encoded_hostname": false,
+            "is_punycode": false,
+            "has_non_ascii_hostname": false,
+            "is_url_shortener": true,
+            "has_suspicious_tld": false,
+            "has_non_standard_port": false,
+            "embedded_domains": [],
+            "keyword_matches": {},
+            "keywords_in_domain": []
+        },
+        "detected_rules": [
+            {
+                "rule_id": "url_shortener",
+                "name": "URL Shortener",
+                "detected": "bit.ly",
+                "reason": "URL shorteners hide the final destination, so the real website cannot be seen from the link itself.",
+                "score": 10
+            }
+        ]
+    },
+    {
+        "scan_id": "20261004015458945599",
+        "url": "http://198.51.100.7/secure/login.php",
+        "timestamp": "2026-10-04 01:54:58",
+        "risk_score": 55,
+        "risk_level": "High Suspicion",
+        "features": {
+            "url": "http://198.51.100.7/secure/login.php",
+            "scheme": "http",
+            "hostname": "198.51.100.7",
+            "subdomain": "",
+            "domain": "198.51.100.7",
+            "tld": "",
+            "port": null,
+            "path": "/secure/login.php",
+            "query": "",
+            "fragment": "",
+            "url_length": 36,
+            "hostname_length": 12,
+            "path_length": 17,
+            "dot_count": 4,
+            "hyphen_count": 0,
+            "hostname_hyphen_count": 0,
+            "subdomain_count": 0,
+            "digit_count": 9,
+            "hostname_digit_count": 0,
+            "special_char_count": 0,
+            "query_param_count": 0,
+            "encoded_char_count": 0,
+            "uses_https": false,
+            "has_ip_address": true,
+            "has_at_symbol": false,
+            "has_double_slash_in_path": false,
+            "has_encoded_hostname": false,
+            "is_punycode": false,
+            "has_non_ascii_hostname": false,
+            "is_url_shortener": false,
+            "has_suspicious_tld": false,
+            "has_non_standard_port": false,
+            "embedded_domains": [],
+            "keyword_matches": {
+                "credentials": [
+                    "login"
+                ],
+                "account": [
+                    "secure"
+                ]
+            },
+            "keywords_in_domain": []
+        },
+        "detected_rules": [
+            {
+                "rule_id": "https_check",
+                "name": "HTTPS Check",
+                "detected": "http",
+                "reason": "The URL uses HTTP rather than HTTPS, so information sent to the site would not be encrypted. Legitimate login pages use HTTPS.",
+                "score": 10
+            },
+            {
+                "rule_id": "ip_address",
+                "name": "IP Address Hostname",
+                "detected": "198.51.100.7",
+                "reason": "The site is addressed by a raw IP address instead of a domain name. Legitimate public websites almost always use domain names.",
+                "score": 25
+            },
+            {
+                "rule_id": "suspicious_keywords",
+                "name": "Suspicious Keywords",
+                "detected": "\"login\", \"secure\" (credentials, account)",
+                "reason": "These words are frequently used in URLs that try to collect passwords, account details or payments. Points are given per category (10 each, maximum 30).",
+                "score": 20
+            }
+        ]
+    },
+    {
+        "scan_id": "20261004015458926106",
+        "url": "http://example-login.com/verify-account",
+        "timestamp": "2026-10-04 01:54:58",
+        "risk_score": 50,
+        "risk_level": "Suspicious",
+        "features": {
+            "url": "http://example-login.com/verify-account",
+            "scheme": "http",
+            "hostname": "example-login.com",
+            "subdomain": "",
+            "domain": "example-login.com",
+            "tld": "com",
+            "port": null,
+            "path": "/verify-account",
+            "query": "",
+            "fragment": "",
+            "url_length": 39,
+            "hostname_length": 17,
+            "path_length": 15,
+            "dot_count": 1,
+            "hyphen_count": 2,
+            "hostname_hyphen_count": 1,
+            "subdomain_count": 0,
+            "digit_count": 0,
+            "hostname_digit_count": 0,
+            "special_char_count": 0,
+            "query_param_count": 0,
+            "encoded_char_count": 0,
+            "uses_https": false,
+            "has_ip_address": false,
+            "has_at_symbol": false,
+            "has_double_slash_in_path": false,
+            "has_encoded_hostname": false,
+            "is_punycode": false,
+            "has_non_ascii_hostname": false,
+            "is_url_shortener": false,
+            "has_suspicious_tld": false,
+            "has_non_standard_port": false,
+            "embedded_domains": [],
+            "keyword_matches": {
+                "credentials": [
+                    "login"
+                ],
+                "verification": [
+                    "verify"
+                ],
+                "account": [
+                    "account"
+                ]
+            },
+            "keywords_in_domain": [
+                "login"
+            ]
+        },
+        "detected_rules": [
+            {
+                "rule_id": "https_check",
+                "name": "HTTPS Check",
+                "detected": "http",
+                "reason": "The URL uses HTTP rather than HTTPS, so information sent to the site would not be encrypted. Legitimate login pages use HTTPS.",
+                "score": 10
+            },
+            {
+                "rule_id": "suspicious_keywords",
+                "name": "Suspicious Keywords",
+                "detected": "\"login\", \"verify\", \"account\" (credentials, verification, account)",
+                "reason": "These words are frequently used in URLs that try to collect passwords, account details or payments. Points are given per category (10 each, maximum 30).",
+                "score": 30
+            },
+            {
+                "rule_id": "keyword_in_domain",
+                "name": "Keyword in Domain Name",
+                "detected": "\"login\" in 'example-login.com'",
+                "reason": "Sensitive words inside the domain name itself (e.g. 'secure-login-example.com') are a common trick to make a fake domain look official.",
+                "score": 10
+            }
+        ]
+    },
+    {
+        "scan_id": "20261004015458873433",
+        "url": "https://www.example.com/about",
+        "timestamp": "2026-10-04 01:54:58",
+        "risk_score": 0,
+        "risk_level": "Low Risk",
+        "features": {
+            "url": "https://www.example.com/about",
+            "scheme": "https",
+            "hostname": "www.example.com",
+            "subdomain": "www",
+            "domain": "example.com",
+            "tld": "com",
+            "port": null,
+            "path": "/about",
+            "query": "",
+            "fragment": "",
+            "url_length": 29,
+            "hostname_length": 15,
+            "path_length": 6,
+            "dot_count": 2,
+            "hyphen_count": 0,
+            "hostname_hyphen_count": 0,
+            "subdomain_count": 0,
+            "digit_count": 0,
+            "hostname_digit_count": 0,
+            "special_char_count": 0,
+            "query_param_count": 0,
+            "encoded_char_count": 0,
+            "uses_https": true,
+            "has_ip_address": false,
+            "has_at_symbol": false,
+            "has_double_slash_in_path": false,
+            "has_encoded_hostname": false,
+            "is_punycode": false,
+            "has_non_ascii_hostname": false,
+            "is_url_shortener": false,
+            "has_suspicious_tld": false,
+            "has_non_standard_port": false,
+            "embedded_domains": [],
+            "keyword_matches": {},
+            "keywords_in_domain": []
+        },
+        "detected_rules": []
+    }
+]

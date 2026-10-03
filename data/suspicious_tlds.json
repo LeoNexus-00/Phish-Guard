@@ -1,0 +1,9 @@
+{
+    "_description": "Top-level domains that public abuse reports (e.g. Spamhaus 'most abused TLDs', Interisle phishing landscape studies) frequently list as being heavily used for phishing and spam, usually because they are free or very cheap to register. Many legitimate websites also use these TLDs, so this is only a WEAK indicator and is scored lightly.",
+    "tlds": [
+        "tk", "ml", "ga", "cf", "gq",
+        "xyz", "top", "zip", "mov", "click", "link", "work",
+        "support", "rest", "cam", "icu", "buzz", "country",
+        "kim", "loan", "monster", "cfd", "sbs"
+    ]
+}
